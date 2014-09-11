@@ -1115,6 +1115,69 @@
         "class": "icon_highlight",
         "parents": [{"class": "icon_button_control", "attributes": ["selected"]}],
         "layer0.texture": "Theme - Piatto/Piatto Dark/icon-highlight-on.png"
-    }
+    },
 
+    {
+        "class": "icon_file_type",
+        // layer0.texture is filled in by code with the relevant icon name
+        "layer0.opacity": 1.0,
+        "content_margin": [8, 8]
+    },
+    {
+        "class"         : "icon_folder",
+        "layer0.texture": "Theme - Piatto/Piatto Dark/folder-closed.png",
+        "layer0.opacity": 1.0,
+        "content_margin": [8, 8]
+    },
+    {
+        "class"         : "icon_folder",
+        "layer0.texture": "Theme - Piatto/Piatto Dark/folder-closed-hover.png",
+        "parents"       : [{"class": "tree_row", "attributes": ["hover"]}]
+    },
+    {
+        "class": "icon_folder",
+        "parents":
+        [
+            { "class": "tree_row", "attributes": ["expanded"] }
+        ],
+        "layer0.texture": "Theme - Piatto/Piatto Dark/folder-open.png",
+    },
+    {
+        "class": "icon_folder",
+        "parents":
+        [
+            { "class": "tree_row", "attributes": ["hover", "expanded"] }
+        ],
+        "layer0.texture": "Theme - Piatto/Piatto Dark/folder-open-hover.png",
+    },
+    {
+        "class": "icon_folder_loading",
+        "layer0.texture":
+        {
+            "keyframes":
+            [
+                "Theme - Piatto/Piatto Dark/spinner7.png",
+                "Theme - Piatto/Piatto Dark/spinner6.png",
+                "Theme - Piatto/Piatto Dark/spinner5.png",
+                "Theme - Piatto/Piatto Dark/spinner4.png",
+                "Theme - Piatto/Piatto Dark/spinner3.png",
+                "Theme - Piatto/Piatto Dark/spinner2.png",
+                "Theme - Piatto/Piatto Dark/spinner1.png",
+                "Theme - Piatto/Piatto Dark/spinner.png",
+            ],
+            "loop": true,
+            "frame_time": 0.075,
+        },
+
+        "layer0.opacity": 1.0,
+        "content_margin": [8, 8]
+    },
+    {
+        "class": "disclosure_button_control",
+        "content_margin": [0, 0]
+    },
+    {
+        "class": "sidebar_tree",
+        "indent_offset": 0
+    }
 ]
