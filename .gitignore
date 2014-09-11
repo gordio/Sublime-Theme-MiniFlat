@@ -216,3 +216,5 @@ pip-log.txt
 
 #Sublime Text
 .cache
+/*.sublime-project
+/*.sublime-workspace
