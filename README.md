@@ -10,6 +10,7 @@ Based on [Piatto Theme clone by Luca Barone](https://github.com/cloud-walker/pia
 ![MiniFlat Light Theme]()
 -->
 
+** FIXME: MiniFlat Light Theme in TODO **
 
 ## Installation using Sublime Package Control
 
