@@ -7,10 +7,7 @@
 //
 
 [
-
-//
 // TABS (REGULAR)
-//
 
     // Tab set
     {
@@ -35,6 +32,7 @@
         "settings": ["mouse_wheel_switches_tabs"],
         "mouse_wheel_switch": true
     },
+
     // Tab element
     {
         "class": "tab_control",
@@ -71,9 +69,7 @@
         "content_margin": [12, 3, 7, 3]
     },
 
-//
 // TAB BUTTONS
-//
 
     // Tab close button
     {
@@ -150,9 +146,7 @@
         "layer0.texture": "Theme - Piatto/Piatto Dark/tab-close-pressed.png"
     },
 
-//
 // TAB LABELS
-//
 
     {
         "class": "tab_label",
@@ -182,9 +176,7 @@
         "font.italic": true
     },
 
-//
 // TAB SCROLLING
-//
 
     // Tab dropdown
     {
@@ -226,9 +218,7 @@
         "layer0.texture": "Theme - Piatto/Piatto Dark/tabset-right-hover.png"
     },
 
-//
 // FOLD BUTTONS
-//
 
     {
         "class": "fold_button_control",
@@ -253,9 +243,7 @@
         "layer0.texture": "Theme - Piatto/Piatto Dark/fold-open-hover.png"
     },
 
-//
 // STANDARD SCROLLBARS
-//
 
     // Standard vertical scroll bar
     {
@@ -299,9 +287,7 @@
         "blur": false
     },
 
-//
 // OVERLAY SCROLLBARS
-//
 
     // Overlay toggle scroll bar
     {
@@ -365,9 +351,7 @@
         "layer0.texture": "Theme - Piatto/Piatto Dark/overlay-dark-puck-horizontal.png"
     },
 
-//
 // EMPTY WINDOW BACKGROUND
-//
 
     {
         "class": "sheet_container_control",
@@ -375,9 +359,7 @@
         "layer0.opacity": 1.0
     },
 
-//
 // GRID LAYOUT
-//
 
     {
         "class": "grid_layout_control",
@@ -385,9 +367,7 @@
         "border_color": [74, 77, 82]
     },
 
-//
 // MINI MAP
-//
 
     {
         "class": "minimap_control",
@@ -408,9 +388,7 @@
         "viewport_opacity": 1.0
     },
 
-//
 // DIALOG
-//
 
     {
         "class": "dialog",
@@ -418,9 +396,7 @@
         "layer0.opacity": 1.0
     },
 
-//
 // PROGRESS BAR
-//
 
     {
         "class": "progress_bar_control",
@@ -434,9 +410,7 @@
         "content_margin": [0, 6]
     },
 
-//
 // LABELS
-//
 
     // General labels
     {
@@ -458,9 +432,7 @@
         "shadow_offset": [0, 0]
     },
 
-//
 // TOOLTIP
-//
 
     // Tooltip container
     {
@@ -476,9 +448,7 @@
         "color": [0, 0, 0]
     },
 
-//
 // STATUS BAR
-//
 
     // Status bar container
     {
@@ -502,9 +472,7 @@
         "shadow_offset": [0, 0]
     },
 
-//
 // SIDEBAR
-//
 
     // Sidebar container
     {
@@ -559,7 +527,7 @@
         "font.bold": false,
         "font.italic": false
     },
- // Sidebar folder entry
+    // Sidebar folder entry
     {
         "class": "sidebar_label",
         "parents": [{"class": "tree_row", "attributes": ["expandable"]}],
@@ -600,9 +568,7 @@
         "font.italic": true
     },
 
-//
 // SIDEBAR - OPEN FILE ICONS
-//
 
     // Sidebar file close
     {
@@ -648,9 +614,7 @@
         "layer0.texture": "Theme - Piatto/Piatto Dark/file-close-selected.png"
     },
 
-//
 // SIDEBAR - GENERAL FILE ICONS
-//
 
     // Sidebar group closed
     {
@@ -728,9 +692,90 @@
         "layer0.texture": "Theme - Piatto/Piatto Dark/folder-open-selected.png"
     },
 
-//
+// ICONS FIXME: Improve :)
+
+    {
+        "class": "icon_file_type",
+        // layer0.texture is filled in by code with the relevant icon name
+        "layer0.opacity": 1.0,
+        "content_margin": [8, 8],
+        "content_margin": [0, 0]
+    },
+    // Hide Icons
+    // {
+    //     "class": "icon_file_type",
+    //     "content_margin": [0,0]
+    // },
+    {
+        "class": "icon_folder",
+        "content_margin": [0,0]
+    },
+    // {
+    //     "class": "icon_folder_loading",
+    //     "content_margin": [0,0]
+    // },
+    // end Hide Icons
+
+    // {
+    //     "class"         : "icon_folder",
+    //     "layer0.texture": "Theme - Piatto/Piatto Dark/folder-closed.png",
+    //     "layer0.tint": [215, 215, 220, 255],
+    //     "layer0.opacity": 0.5,
+    //     "content_margin": [8, 8]
+    // },
+    // {
+    //     "class"         : "icon_folder",
+    //     "layer0.texture": "Theme - Piatto/Piatto Dark/folder-closed-hover.png",
+    //     "parents"       : [{"class": "tree_row", "attributes": ["hover"]}]
+    // },
+    // {
+    //     "class": "icon_folder",
+    //     "parents":
+    //     [
+    //         { "class": "tree_row", "attributes": ["expanded"] }
+    //     ],
+    //     "layer0.texture": "Theme - Piatto/Piatto Dark/folder-open.png",
+    // },
+    // {
+    //     "class": "icon_folder",
+    //     "parents":
+    //     [
+    //         { "class": "tree_row", "attributes": ["hover", "expanded"] }
+    //     ],
+    //     "layer0.texture": "Theme - Piatto/Piatto Dark/folder-open-hover.png",
+    // },
+    {
+        "class": "icon_folder_loading",
+        "layer0.texture":
+        {
+            "keyframes":
+            [
+                "Theme - Piatto/Piatto Dark/spinner7.png",
+                "Theme - Piatto/Piatto Dark/spinner6.png",
+                "Theme - Piatto/Piatto Dark/spinner5.png",
+                "Theme - Piatto/Piatto Dark/spinner4.png",
+                "Theme - Piatto/Piatto Dark/spinner3.png",
+                "Theme - Piatto/Piatto Dark/spinner2.png",
+                "Theme - Piatto/Piatto Dark/spinner1.png",
+                "Theme - Piatto/Piatto Dark/spinner.png",
+            ],
+            "loop": true,
+            "frame_time": 0.075,
+        },
+
+        "layer0.opacity": 1.0,
+        "content_margin": [8, 8]
+    },
+    {
+        "class": "disclosure_button_control",
+        "content_margin": [0, 0]
+    },
+    {
+        "class": "sidebar_tree",
+        "indent_offset": 0
+    },
+
 // STANDARD TEXT BUTTONS
-//
 
     // Default button state
     {
@@ -748,9 +793,7 @@
         "layer0.texture": "Theme - Piatto/Piatto Dark/btn-large-on.png"
     },
 
-//
 // TEXT INPUT FIELD
-//
 
     // Text input field item
     {
@@ -775,9 +818,7 @@
         "layer0.texture": "Theme - Piatto/Piatto Dark/text-field-list-hover.png"
     },
 
-//
 // PANEL BACKGROUNDS
-//
 
     // Bottom panel background
     {
@@ -808,9 +849,7 @@
         "content_margin": [6, 8, 6, 6]
     },
 
-//
 // QUICK PANEL
-//
 
     {
         "class": "quick_panel",
@@ -849,9 +888,7 @@
         "selected_fg": [255, 255, 255, 255]
     },
 
-//
 // MINI QUICK PANEL
-//
 
     {
         "class": "mini_quick_panel_row",
@@ -865,9 +902,7 @@
         "layer0.texture": "Theme - Piatto/Piatto Dark/quick-panel-row-selected.png"
     },
 
-//
 // CODE COMPLETION DROPDOWN
-//
 
     {
         "class": "popup_control",
@@ -900,9 +935,7 @@
         "layer0.opacity": 1.0
     },
 
-//
 // BOTTOM PANEL BUTTONS
-//
 
     // Button group middle
     {
@@ -972,9 +1005,7 @@
         "layer0.texture": "Theme - Piatto/Piatto Dark/panel-close-pressed.png"
     },
 
-//
 // BOTTOM PANEL ICONS - GROUP 1
-//
 
     // Regex search button
     {
@@ -1013,9 +1044,7 @@
         "layer0.texture": "Theme - Piatto/Piatto Dark/icon-word-on.png"
     },
 
-//
 // BOTTOM PANEL ICONS - GROUP 1 (EXTENDED: FIND IN FILES)
-//
 
     // Show search context button
     {
@@ -1042,9 +1071,7 @@
         "layer0.texture": "Theme - Piatto/Piatto Dark/icon-buffer-on.png"
     },
 
-//
 // BOTTOM PANEL ICONS - GROUP 2
-//
 
     // Reverse search direction button
     {
@@ -1083,9 +1110,7 @@
         "layer0.texture": "Theme - Piatto/Piatto Dark/icon-selection-on.png"
     },
 
-//
 // BOTTOM PANEL ICONS - GROUP 3
-//
 
     // Preserve case button
     {
@@ -1100,9 +1125,7 @@
         "layer0.texture": "Theme - Piatto/Piatto Dark/icon-preserve-on.png"
     },
 
-//
 // BOTTOM PANEL ICONS - GROUP 4
-//
 
     // Highlight results button
     {
@@ -1115,69 +1138,5 @@
         "class": "icon_highlight",
         "parents": [{"class": "icon_button_control", "attributes": ["selected"]}],
         "layer0.texture": "Theme - Piatto/Piatto Dark/icon-highlight-on.png"
-    },
-
-    {
-        "class": "icon_file_type",
-        // layer0.texture is filled in by code with the relevant icon name
-        "layer0.opacity": 1.0,
-        "content_margin": [8, 8]
-    },
-    {
-        "class"         : "icon_folder",
-        "layer0.texture": "Theme - Piatto/Piatto Dark/folder-closed.png",
-        "layer0.opacity": 1.0,
-        "content_margin": [8, 8]
-    },
-    {
-        "class"         : "icon_folder",
-        "layer0.texture": "Theme - Piatto/Piatto Dark/folder-closed-hover.png",
-        "parents"       : [{"class": "tree_row", "attributes": ["hover"]}]
-    },
-    {
-        "class": "icon_folder",
-        "parents":
-        [
-            { "class": "tree_row", "attributes": ["expanded"] }
-        ],
-        "layer0.texture": "Theme - Piatto/Piatto Dark/folder-open.png",
-    },
-    {
-        "class": "icon_folder",
-        "parents":
-        [
-            { "class": "tree_row", "attributes": ["hover", "expanded"] }
-        ],
-        "layer0.texture": "Theme - Piatto/Piatto Dark/folder-open-hover.png",
-    },
-    {
-        "class": "icon_folder_loading",
-        "layer0.texture":
-        {
-            "keyframes":
-            [
-                "Theme - Piatto/Piatto Dark/spinner7.png",
-                "Theme - Piatto/Piatto Dark/spinner6.png",
-                "Theme - Piatto/Piatto Dark/spinner5.png",
-                "Theme - Piatto/Piatto Dark/spinner4.png",
-                "Theme - Piatto/Piatto Dark/spinner3.png",
-                "Theme - Piatto/Piatto Dark/spinner2.png",
-                "Theme - Piatto/Piatto Dark/spinner1.png",
-                "Theme - Piatto/Piatto Dark/spinner.png",
-            ],
-            "loop": true,
-            "frame_time": 0.075,
-        },
-
-        "layer0.opacity": 1.0,
-        "content_margin": [8, 8]
-    },
-    {
-        "class": "disclosure_button_control",
-        "content_margin": [0, 0]
-    },
-    {
-        "class": "sidebar_tree",
-        "indent_offset": 0
     }
 ]
