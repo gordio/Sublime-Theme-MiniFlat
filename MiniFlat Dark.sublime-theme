@@ -491,14 +491,14 @@
         "layer0.texture": "Theme - MiniFlat/MiniFlat Dark/sidebar-bg.png",
         "layer0.opacity": 1.0,
         "layer0.inner_margin": [2, 2, 2, 2],
-        "content_margin": [0, 2, 1, 2]
+        "content_margin": [0, 0, 2, 0]
     },
     // Sidebar tree
     {
         "class": "sidebar_tree",
-        "row_padding": [10, 5],
-        "indent": 15,
-        "indent_offset": 15,
+        "row_padding": [10, 4],
+        "indent": 16,
+        "indent_offset": 16,
         "indent_top_level": false
     },
     // Sidebar rows
@@ -521,6 +521,13 @@
         "font.bold": true,
         "shadow_color": [0, 0, 0],
         "shadow_offset": [0, 0]
+    },
+    // Sidebar heading selected
+    {
+        "class": "sidebar_heading",
+        "parents": [{"class": "tree_row", "attributes": ["hover"]}],
+        "color": [255, 255, 255],
+        "shadow_color": [0, 0, 0]
     },
     // Sidebar heading selected
     {
@@ -711,7 +718,7 @@
     // remove sidebar offset
     {
         "class": "sidebar_tree",
-        "indent_offset": 0
+        "indent_offset": 1
     },
 
 // STANDARD TEXT BUTTONS
