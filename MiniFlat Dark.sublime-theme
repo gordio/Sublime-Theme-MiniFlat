@@ -754,14 +754,14 @@
         {
             "keyframes":
             [
-                "Theme - MiniFlat/icons/spinner7.png",
-                "Theme - MiniFlat/icons/spinner6.png",
-                "Theme - MiniFlat/icons/spinner5.png",
-                "Theme - MiniFlat/icons/spinner4.png",
-                "Theme - MiniFlat/icons/spinner3.png",
-                "Theme - MiniFlat/icons/spinner2.png",
-                "Theme - MiniFlat/icons/spinner1.png",
-                "Theme - MiniFlat/icons/spinner0.png",
+                "Theme - MiniFlat/MiniFlat Dark/spinner7.png",
+                "Theme - MiniFlat/MiniFlat Dark/spinner6.png",
+                "Theme - MiniFlat/MiniFlat Dark/spinner5.png",
+                "Theme - MiniFlat/MiniFlat Dark/spinner4.png",
+                "Theme - MiniFlat/MiniFlat Dark/spinner3.png",
+                "Theme - MiniFlat/MiniFlat Dark/spinner2.png",
+                "Theme - MiniFlat/MiniFlat Dark/spinner1.png",
+                "Theme - MiniFlat/MiniFlat Dark/spinner0.png",
             ],
             "loop": true,
             "frame_time": 0.075,
