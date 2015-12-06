@@ -29,8 +29,9 @@ To configure Sublime Text to use the theme, follow the instructions below for yo
 {
     "theme": "MiniFlat Dark.sublime-theme",
     "color_scheme": "Packages/Theme - MiniFlat/MiniFlat Dark.tmTheme",
-    "folder_icons": true,
-    "files_icons": true,
+    "hide_folder_loading_icons": false,
+    "hide_folder_icons": false,
+    "hide_files_icons": false,
     "bold_folder_labels": true,
     "overlay_scroll_bars": "enabled"
 }
