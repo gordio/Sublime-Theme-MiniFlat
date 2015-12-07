@@ -34,7 +34,11 @@ To configure Sublime Text to use the theme, follow the instructions below for yo
     "hide_files_icons": false,
     "hide_folder_loading_icons": false,
     "bold_folder_labels": true,
-    "sidebar_remove_offset": true, // recomended for sidebar without "Opened Files"
+    "sidebar_no_hover": false,
+    
+    // recomended for sidebar without "Opened Files" panel
+    "sidebar_remove_offset": true,
+    // Just recomended
     "overlay_scroll_bars": "enabled"
 }
 ```

@@ -517,10 +517,10 @@
     // Sidebar heading
     {
         "class": "sidebar_heading",
-        "color": [247, 247, 247],
+        "color": [232, 232, 232],
         "font.bold": true,
         "shadow_color": [0, 0, 0],
-        "shadow_offset": [0, 0]
+        "shadow_offset": [0, 1]
     },
     // Sidebar heading selected
     {
@@ -549,26 +549,26 @@
     {
         "class": "sidebar_label",
         "parents": [{"class": "tree_row", "attributes": ["expandable"]}],
-        "color": [247, 247, 247],
+        "color": [230, 230, 230],
         "font.bold": true
     },
     {
         "class": "sidebar_label",
         "parents": [{"class": "tree_row", "attributes": ["expandable", "hover"]}],
-        "color": [52, 152, 219]
+        "color": [240, 240, 240]
     },
     {
         "class": "sidebar_label",
         "parents": [{"class": "tree_row", "attributes": ["expandable"]}],
         "settings": ["bold_folder_labels"],
-        "color": [247, 247, 247],
+        "color": [240, 240, 240],
         "font.bold": true
     },
     {
         "class": "sidebar_label",
-        "parents": [{"class": "tree_row", "attributes": ["expandable", "hover"]}],
-        "settings": ["bold_folder_labels"],
-        "color": [247, 247, 247]
+        "settings": ["!sidebar_no_hover"],
+        "parents": [{"class": "tree_row", "attributes": ["hover"]}],
+        "color": [255, 255, 255]
     },
     // Sidebar entry selected
     {
@@ -642,9 +642,10 @@
     },
         {
         "class": "icon_file_type",
+        "settings": ["!sidebar_no_hover"],
         "parents" : [{"class": "tree_row", "attributes": ["hover"]}],
         // "layer0.tint": [215, 215, 220], // FIXME: Highlight color
-        "layer0.opacity": 1.0
+        "layer0.opacity": 0.9
     },
     {
         "class" : "icon_folder",
@@ -655,9 +656,10 @@
     },
     {
         "class" : "icon_folder",
+        "settings": ["!sidebar_no_hover"],
         "parents" : [{"class": "tree_row", "attributes": ["hover"]}],
         // "layer0.tint": [215, 215, 220], // FIXME: Highlight color
-        "layer0.opacity": 1.0
+        "layer0.opacity": 0.9
     },
     {
         "class": "icon_folder",
