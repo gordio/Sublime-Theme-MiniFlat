@@ -646,24 +646,6 @@
         // "layer0.tint": [215, 215, 220], // FIXME: Highlight color
         "layer0.opacity": 1.0
     },
-    // Hide Icons
-    {
-        "class": "icon_file_type",
-        "settings": ["hide_files_icons"],
-        "content_margin": [0,0]
-    },
-    {
-        "class": "icon_folder",
-        "settings": ["hide_folder_icons"],
-        "content_margin": [0,0]
-    },
-    {
-        "class": "icon_folder_loading",
-        "settings": ["hide_folder_loading_icons"],
-        "content_margin": [0,0]
-    },
-    // end Hide Icons
-
     {
         "class" : "icon_folder",
         "layer0.texture": "Theme - MiniFlat/icons/folder.png",
@@ -718,8 +700,27 @@
     // remove sidebar offset
     {
         "class": "sidebar_tree",
+        "settings": ["remove_sidebar_offset"],
         "indent_offset": 1
     },
+
+    // Hide Icons
+    {
+        "class": "icon_file_type",
+        "settings": ["hide_files_icons"],
+        "content_margin": [0,0]
+    },
+    {
+        "class": "icon_folder",
+        "settings": ["hide_folder_icons"],
+        "content_margin": [0,0]
+    },
+    {
+        "class": "icon_folder_loading",
+        "settings": ["hide_folder_loading_icons"],
+        "content_margin": [0,0]
+    },
+    // end Hide Icons
 
 // STANDARD TEXT BUTTONS
 
