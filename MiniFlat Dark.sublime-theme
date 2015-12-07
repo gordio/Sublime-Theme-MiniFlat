@@ -700,7 +700,7 @@
     // remove sidebar offset
     {
         "class": "sidebar_tree",
-        "settings": ["remove_sidebar_offset"],
+        "settings": ["sidebar_remove_offset"],
         "indent_offset": 1
     },
 
