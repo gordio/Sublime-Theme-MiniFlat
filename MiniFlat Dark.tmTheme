@@ -29,11 +29,11 @@
 			<key>settings</key>
 			<dict>
 				<key>background</key>
-				<string>#34363a</string>
+				<string>#2a2b2f</string>
 				<key>caret</key>
 				<string>#528BFF</string>
 				<key>foreground</key>
-				<string>#BCC6D1</string>
+				<string>#C5CDD6</string>
 				<key>invisibles</key>
 				<string>#747369</string>
 				<key>lineHighlight</key>
