@@ -1,5 +1,9 @@
 # MiniFlat Theme
 
+
+__Not in development: I use [Boxy Theme](https://github.com/oivva/st-boxy)__
+----
+
  MiniFlat is a very simple flat style theme for Sublime Text 2 and Sublime Text 3. Theme is designed to work with the latest builds of [Sublime Text 3](http://www.sublimetext.com/3dev).
 
 Based on [Piatto Theme clone by Luca Barone](https://github.com/cloud-walker/piano) which based on [Soda Theme by Ian Hill](https://github.com/buymeasoda/soda-theme)
